@@ -1,0 +1,19 @@
+{
+    "response": [
+        {
+            "incremental": "eng.lolpop.20260920.122319",
+            "api_level": "30",
+            "url": "https://github.com/LolPopGames/lineage-ota-whyred/releases/download/20260920/lineage-18.1-20260920-UNOFFICIAL-whyred.zip",
+            "timestamp": 1789903121,
+            "md5sum": "e634852e4cee08ec90dd7000ba209178",
+            "changes": "https://github.com/LolPopGames/lineage-ota-whyred/releases/tag/20260920",
+            "channel": "unofficial",
+            "filename": "lineage-18.1-20260920-UNOFFICIAL-whyred.zip",
+            "romtype": "unofficial",
+            "datetime": 1789903121,
+            "version": "18.1",
+            "id": "680ea99a1f54887be8cc778346b8db7551fa6fa58bb8ba057075fe903b24a1fe",
+            "size": 860199449
+        }
+    ]
+}
