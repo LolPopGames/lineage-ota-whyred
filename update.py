@@ -156,7 +156,7 @@ class LOTABuilds:
     #        CM => [MODEL] (ex. i9100, i9300, etc.)
     #        LINEAGE => [SIGNED] (ex. signed)
     #    )
-    matches = re.match(r'([A-Za-z0-9]+)?-([0-9\.]+)-([\d_]+)?-([\w+]+)-([A-Za-z0-9_]+)?-?([\w+]+)?', fileName)
+    matches = re.match(r'([A-Za-z0-9-]+)?-([0-9\.]+)-([\d_]+)?-([\w+]+)-([A-Za-z0-9_]+)?-?([\w+]+)?', fileName)
     if not matches:
       return [''] * 6
     return self.__removeTrailingDashes(matches.group(1,2,3,4,5,6))
