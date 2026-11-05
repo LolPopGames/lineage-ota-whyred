@@ -238,7 +238,7 @@ class LOTABuilds:
               updates.append(update)
         if updates:
           response = { "response" : updates }
-          file = open('api/v1/'+model+'_'+channel,'w')
+          file = open('api/v1/'+channel,'w')
           json.dump(response,file,indent=4)
           file.close()
 # END CLASS LOTABuilds
